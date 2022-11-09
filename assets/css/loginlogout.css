@@ -1,0 +1,84 @@
+.form-panel {
+  background: linear-gradient(135deg, #3b536b, #1c3956);
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.1), 2px 2px 16px 0px rgba(0, 0, 0, 0.2), 4px 16px 64px 0px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  width: 20em;
+  height: 25em;
+  padding-top: 2em;
+  color: white;
+  overflow: hidden;
+  transition: transform 300ms ease;
+}
+
+.form-panel .signup {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20em;
+  box-sizing: border-box;
+  padding: 2rem;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 400ms ease, transform 200ms ease;
+}
+
+.field {
+  text-align: left;
+  position: relative;
+}
+.field label {
+  display: block;
+  position: absolute;
+  top: 0;
+  transform-origin: left top;
+  font-size: 1.2rem;
+  font-weight: 200;
+  transform: translatey(0.5rem);
+  transition: transform 100ms;
+}
+.field input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 1.5rem 0rem 0.5rem;
+  color: white;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+button,
+input[type=submit] {
+  -webkit-appearance: none;
+  display: inline-block;
+  background: #ff7475;
+  border: #ff7475 2px solid;
+  font-size: 1.25em;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: inherit;
+  color: white;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  transition: color 100ms ease-in-out, background 100ms ease-in-out;
+  margin-top: 1rem;
+}
+button:hover,
+input[type=submit]:hover {
+  color: #ff7475;
+  background: transparent;
+}
+
+button {
+  background: transparent;
+  color: #ff7475;
+}
+button:hover {
+  color: white;
+  background: #ff7475;
+}
+
