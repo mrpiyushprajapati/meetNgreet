@@ -27,5 +27,13 @@ This is contact us page of the website where anyone can put a query regarding an
 This is home page of the website where all the exisiting logged in users can chat to each other.
 ![Screenshot (105)](https://user-images.githubusercontent.com/61181831/200978074-aa3364a9-61fe-4cc0-bc74-830f7341574a.png)
 
-This is basic structure of the file
+This is basic structure of the file that contains all the files
 ![Screenshot (106)](https://user-images.githubusercontent.com/61181831/200978772-292d6dbf-a83e-4939-98a0-d3055b1d74bc.png)
+
+This is monogoDB atlas where all the queries are stored under contact
+![Screenshot (107)](https://user-images.githubusercontent.com/61181831/200980220-1bf50f05-25b4-4bf7-bd76-dde72e10dd33.png)
+
+This is monogoDB atlas where all the user credentials are stored under users
+![Screenshot (109)](https://user-images.githubusercontent.com/61181831/200980271-644e6ac1-eb7d-44ed-8048-3a9aeb640941.png)
+
+
