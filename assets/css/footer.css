@@ -1,17 +1,23 @@
 #layout-footer {
     position: fixed;
     bottom: 0;
-    width: 100%;
+    clear: both;
+    width: 100vw;
     color: white;
     background: midnightblue;
-    padding: 5px 10px;
+    padding: 0.5vw;
     display: flex;
-    justify-content: flex-start; }
-    #layout-footer a {
+    justify-content: space-between; }
+#layout-footer a {
+  margin: 10px;
       color: white;
       text-decoration: none; }
-    #layout-footer .footer-nav ul {
+#layout-footer .footer-nav ul {
       list-style: none; }
-      #layout-footer .footer-nav ul li {
+#layout-footer .footer-nav ul li {
         display: inline-block; }
-  
+
+#right{
+  align-self: right;
+  margin-right: 10px;
+}

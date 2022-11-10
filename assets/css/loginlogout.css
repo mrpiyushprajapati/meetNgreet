@@ -82,3 +82,11 @@ button:hover {
   background: #ff7475;
 }
 
+@media screen and (max-width: 1000px) {
+  .form-panel {
+      width: 90vw;
+  }
+  .form-panel .signup{
+    width: 90vw;
+  }
+}
