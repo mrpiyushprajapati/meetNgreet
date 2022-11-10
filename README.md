@@ -27,3 +27,5 @@ This is contact us page of the website where anyone can put a query regarding an
 This is home page of the website where all the exisiting logged in users can chat to each other.
 ![Screenshot (105)](https://user-images.githubusercontent.com/61181831/200978074-aa3364a9-61fe-4cc0-bc74-830f7341574a.png)
 
+This is basic structure of the file
+![Screenshot (106)](https://user-images.githubusercontent.com/61181831/200978772-292d6dbf-a83e-4939-98a0-d3055b1d74bc.png)
